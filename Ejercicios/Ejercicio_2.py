@@ -27,8 +27,17 @@ if __name__ =="__main__":
 
     punto_1:Punto= Punto(2,2)
     punto_2:Punto= Punto(5,5)
+    punto_1.mostrar_coordenadas()
+    punto_2.mostrar_coordenadas()
 
     print(punto_1.calcular_distancia(punto_2))
+
+    punto_2.mover_punto(4,7)
+    punto_2.mostrar_coordenadas()
+    punto_1.mover_punto(2, 5)
+    punto_1.mostrar_coordenadas()
+
+
 
 
 
